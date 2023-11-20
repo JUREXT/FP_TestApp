@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FPTestApp"
+rootProject.name = "FPTest"
 include(":app")
  

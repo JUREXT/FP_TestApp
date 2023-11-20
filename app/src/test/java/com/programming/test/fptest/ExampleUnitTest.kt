@@ -1,4 +1,4 @@
-package com.programming.test.fptestapp
+package com.programming.test.fptest
 
 import org.junit.Test
 
