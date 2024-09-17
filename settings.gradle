@@ -3,6 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url 'https://mapbox.bintray.com/mapbox' }
     }
 }
 dependencyResolutionManagement {
@@ -10,9 +11,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://mapbox.bintray.com/mapbox' }
     }
 }
 
 rootProject.name = "FPTest"
-include(":app")
- 
+include ':app'
